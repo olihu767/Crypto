@@ -43,9 +43,9 @@ You’ll create data visualizations to present the final results.
 
 Complete the following tasks:
 
-1. Create a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
-2. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
-3. Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] 
+1. Create a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot:hover_data=["Algorithm"] to show this additional info on each data point.
+2. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
+3. Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. 
 parameter to include the cryptocurrency name on each data point.
 
 ## Usage
